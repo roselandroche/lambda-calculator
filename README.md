@@ -59,12 +59,12 @@ Using the design file, build out your User Interface. Before you start, look thr
 [x] Data should be imported into the wrapper components (`Numbers`, `Operators`, and `Specials`)
 
 **Step 2**
-Add the data to state like this:
+[] Add the data to state like this:
 
-[x] ```js
+```js
 import { numbers } from '../path/to/data';
 
-[x] ...
+...
 
 
 const [numberState, setNumberState] = useState(numbers);
