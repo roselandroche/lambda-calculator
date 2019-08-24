@@ -6,8 +6,12 @@
     margin-left: 400px;
     border-radius: 12px;
 
-    .logo {
-
+    .logo-container {
+        width: 100px;
+        
+        .logo{
+            width: 110px;
+        }
     }
 
     .display {
@@ -26,21 +30,7 @@
         display: flex;
         margin: 20px;
 
-        .NumberButton {
-            border-radius: 50%;
-            height: 60px;
-            width: 60px;
-            font-size: 24px;
-        }
-
-        .OperatorButton {
-            border-radius: 50%;
-            height: 60px;
-            width: 60px;
-            font-size: 24px;
-        }
-
-        .SpecialButton {
+        .NumberButton, .OperatorButton, .SpecialButton {
             border-radius: 50%;
             height: 60px;
             width: 60px;
