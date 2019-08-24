@@ -1,5 +1,5 @@
 .container {
-    background-color: red;
+    background-color:  #c93237;
     width: 350px;
     height: 600px;
     text-align: center;
@@ -23,8 +23,24 @@
     }
 
     .App {
+        display: flex;
+        margin: 20px;
 
         .NumberButton {
+            border-radius: 50%;
+            height: 60px;
+            width: 60px;
+            font-size: 24px;
+        }
+
+        .OperatorButton {
+            border-radius: 50%;
+            height: 60px;
+            width: 60px;
+            font-size: 24px;
+        }
+
+        .SpecialButton {
             border-radius: 50%;
             height: 60px;
             width: 60px;
